@@ -1,0 +1,15 @@
+[package]
+name = "fuel-block-validator"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+tokio = { version = "1", features = ["full"] }
+anyhow = "1.0"
+fuel-core-client = "0.40.0"
+fuel-tx = "0.58.2"
+fuel-types = "0.58.2"
+fuel-merkle = "0.58.2"
+log = "0.4"
+env_logger = "0.10"
+cynic = "2.2"
